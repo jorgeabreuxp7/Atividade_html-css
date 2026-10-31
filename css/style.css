@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho em azul escuro */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Barra lateral em um tom de azul bem clarinho */
+aside {
+    width: 220px;
+    background-color: #e6f2ff;
+    padding: 20px 0 20px 20px;
+}
+
+aside ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+aside li {
+    margin-bottom: 12px;
+}
+
+/* Links do menu em azul forte */
+aside a {
+    color: #0056b3;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal com fundo branco */
+main {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+main h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #002b5c;
+}
+
+main p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+/* Rodapé em azul escuro (igual ao cabeçalho) */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 13px;
+}
