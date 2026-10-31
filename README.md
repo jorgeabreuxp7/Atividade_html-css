@@ -10,12 +10,10 @@ Projetado com uma estrutura básica (cabeçalho, menu lateral, e rodapé) e esti
 
 O projeto está organizado com as páginas HTML e CSS numa pasta dedicada a ambas:
 
-```
+```text
 projeto/
-│
 ├── css/
 │   └── style.css
-│
 └── html/
     ├── index.html
     ├── palhaco.html
