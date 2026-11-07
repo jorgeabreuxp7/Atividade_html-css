@@ -2,7 +2,7 @@
 
 Um site simples em HTML e CSS para apresentar diferentes espécies de peixes de aquário e as suas características principais.
 
-Projetado com uma estrutura básica de layout (cabeçalho, menu lateral, área de conteúdo e rodapé) e estilizado em tons de azul.
+Projetado com uma estrutura básica de layout (cabeçalho, menu lateral, área de conteúdo e rodapé) e estilizado em tons de azul. 
 
 ---
 
